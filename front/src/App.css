@@ -1,0 +1,63 @@
+.App {
+  height: 100vh; /* Magic here */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.input{
+  width:300px;
+  height:30px;
+  padding-left: 5px;
+  border-radius:3px;
+  border: 1px solid #d3d1d6;
+  outline: none;
+}
+
+.item{
+  min-height:30px;
+  width:300px;
+  border-bottom: 1px solid #d3d1d6;
+}
+
+.item:active{
+  opacity: 0.5;
+}
+
+.item:hover{
+  background-color: #c2c0c3;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.selected{
+  position: absolute;
+  top:0;
+  right:0;
+  height:300px;
+  width:300px;
+  border:1px solid gray;
+  margin:5px;
+}
+
+.button{
+  width:300px;
+  height:30px;
+  border:0px;
+  outline: none;
+  border-radius: 5px;
+  background-color: #4fbdfa;
+  margin-top: 10px;
+  color:white;
+  font-weight: bold;
+}
+
+.button:hover{
+  cursor: pointer;
+}
+.button:active{
+  opacity: 0.8;
+  
+}
